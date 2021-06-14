@@ -6,14 +6,13 @@
           revision="lineage-16.0" />
   
   <remote name="P"
-          fetch="https://github.com/Linux-On-Sdm6Series"
-          revision="P" />
+          fetch="https://github.com/Linux-On-Sdm6Series" />
   
   <remote name="lineage"
           fetch="https://github.com/LineageOS"
           revision="lineage-16.0" />
 
-  <project name="vendor_asus_X00TD" path="vendor/asus/X00TD" remote="P" depth="1" />
+  <project name="vendor_asus_X00TD" path="vendor/asus/X00TD" remote="P" revision="P" depth="1" />
   <project name="device_asus_X00TD" path="device/asus/X00TD" remote="P" revision="P-test" depth="1" />
   <project name="android_kernel_asus_sdm660" path="kernel/asus/sdm660" remote="lineage" depth="1" />
 
